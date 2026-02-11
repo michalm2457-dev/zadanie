@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>ProcessingAPI</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Ardalis.Result" Version="10.1.0" />
+        <PackageReference Include="MediatR" Version="14.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.2"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Middleware\" />
+    </ItemGroup>
+
+</Project>
